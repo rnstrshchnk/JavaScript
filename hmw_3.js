@@ -77,4 +77,4 @@ function isPalindrom(word) {
 
     return (removeChar === checkPalindrome);
  }
-  console.log(isPalindrom('Abba'))
+  console.log("Введенное слово является палиндромом? " + isPalindrom('Abba'))
