@@ -265,15 +265,3 @@ const editDepartment = (id, new_departmentName) =>{
     ]
   }
 ]
-
-const tree = function (enterprise, counter = "") {
-  company.forEach(enterprise =>{
-    console.log(`${counter}${counter === "" ? "" : " "}${enterprise.name} (${enterprise.users_count})`);
-    if (enterprise.children){
-      counter+= "--";
-      tree(enterprise.children, counter);
-      counter = counter.slice(0, -2);
-    }
-  })
-}
-tree(enterprises);
