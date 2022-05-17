@@ -19,8 +19,7 @@
 ------ Подраздел менеджмента 2 (10)
 ---- HR (1)
 */
-// const fs = require('fs');
-// const company = require('./hmw_4_task4');
+
 const company = [
   {
     id: 1,
