@@ -19,6 +19,8 @@
 ------ Подраздел менеджмента 2 (10)
 ---- HR (1)
 */
+// const fs = require('fs');
+// const company = require('./hmw_4_task4');
 const company = [
   {
     id: 1,
@@ -95,6 +97,7 @@ const company = [
     ]
   }
 ]
+
 const tree = function (company, counter = "") {
     company.forEach(department =>{
       console.log(`${counter}${counter === "" ? "" : " "}${department.name} (${department.users_count})`);
